@@ -1,13 +1,8 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Loans API",
-    "version": "1.0",
-    "description": "Manage Loans",
-    "contact": {
-      "name": "Rajmohan",
-      "email": "rajmohan.p@fairwaymc.com"
-    }
+    "title": "Wires",
+    "version": "1.0"
   },
   "servers": [
     {
@@ -15,16 +10,16 @@
     }
   ],
   "paths": {
-    "/loans": {
+    "/wires": {
       "get": {
         "summary": "Your GET endpoint",
         "tags": [],
         "responses": {},
-        "operationId": "get-loans"
+        "operationId": "get-wires"
       },
       "post": {
         "summary": "",
-        "operationId": "post-loans",
+        "operationId": "post-wires",
         "responses": {
           "200": {
             "description": "OK"
@@ -33,7 +28,7 @@
       },
       "put": {
         "summary": "",
-        "operationId": "put-loans",
+        "operationId": "put-wires",
         "responses": {
           "200": {
             "description": "OK"
@@ -42,7 +37,7 @@
       },
       "patch": {
         "summary": "",
-        "operationId": "patch-loans",
+        "operationId": "patch-wires",
         "responses": {
           "200": {
             "description": "OK"
