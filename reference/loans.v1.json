@@ -1,0 +1,18 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "loans",
+    "version": "1.0",
+    "description": "Manage Loans",
+    "contact": {
+      "name": "Rajmohan",
+      "email": "rajmohan.p@fairwaymc.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "paths": {}
+}
